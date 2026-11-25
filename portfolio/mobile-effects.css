@@ -1,0 +1,9 @@
+
+@media(max-width:700px){.hero{min-height:1080px}.scene-shell{top:55%;bottom:5%;width:100%;right:0}.scene-controls{left:0;right:0;bottom:0;justify-content:center;gap:10px}.scene-controls button{min-height:44px;padding:12px 18px;font-size:13px}.scene-controls>span{text-align:center;margin:4px 0 0}.hero-bottom{bottom:18px}.hero-bottom>span:first-child{display:none}.hero-bottom{justify-content:center}.portrait-stage{touch-action:pan-y}.touch-depth{transition:rotate .3s ease,scale .3s ease;rotate:1 0 0 var(--touch-angle,0deg)}.motion-off .touch-depth{rotate:none!important}.project{will-change:auto}.noise{opacity:.01}}
+@media(prefers-reduced-motion:reduce){.touch-depth{rotate:none!important;transition:none}}
+
+@media(max-width:700px){.hero{position:relative;height:1080px;max-height:none}.hero-track{height:auto}}
+
+@media(max-width:700px){.hero{overflow:clip}.scene-controls button{touch-action:manipulation}}
+
+@media(max-width:700px){.scene-controls{transform:none;width:100%;left:0;right:0}.scene-shell{height:auto}}

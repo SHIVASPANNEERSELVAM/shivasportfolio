@@ -1,0 +1,4 @@
+
+body{isolation:isolate}.ambient-field{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;background:#08080b}.ambient-field canvas{display:block;width:100%;height:100%;opacity:.8}.ambient-field:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#08080b20,#08080b65 28%,#08080b45 65%,transparent);pointer-events:none}
+.about{background:radial-gradient(ellipse at 12% 40%,#61142318,transparent 65%)}.credentials,.github-section,.milestones{position:relative}.capability-card,.certification-card{background-color:#0e0e14e8}.work-card{background-color:#101014f2}.ambient-field~main .section-heading>p{color:#aaa3ad}
+@media(max-width:700px){.ambient-field canvas{opacity:.55}}

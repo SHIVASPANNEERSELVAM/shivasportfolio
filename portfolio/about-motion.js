@@ -1,0 +1,2 @@
+
+(()=>{const about=document.querySelector('#about'),facts=about?.querySelector('.profile-facts');if(!about)return;facts?.querySelectorAll('dl>div').forEach((d,i)=>d.style.setProperty('--fact-delay',i*110+'ms'));const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add(e.target===about?'about-enter':'facts-enter');io.unobserve(e.target)}}),{threshold:.08});io.observe(about);if(facts)io.observe(facts);})();
